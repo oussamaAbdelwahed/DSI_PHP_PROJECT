@@ -1,0 +1,119 @@
+        .errorphp{
+			color: red;
+			font-size: 17px;
+		}
+		#formcontainer{
+       border: solid 1px black;
+       margin-right: 15px;
+       }#video{
+
+      
+        position: relative;
+         }#vid{
+         	  position: fixed;
+         	  width: 60%;
+         }.navbar-default{
+         	border-bottom: none;
+         }
+
+		#im{
+
+		height: 100%;
+		width: 100%;
+		margin-top: 100px;
+		margin-bottom: 100px;
+						
+		}body{
+			background-color:rgba(221,224,223,0.5);
+			overflow-x:hidden;
+			margin: 0px;
+			padding-right: 0px;
+		}nav.navbar{
+      -webkit-box-shadow: 0px 4px 23px -1px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 4px 23px -1px rgba(0,0,0,0.75);
+       box-shadow: 0px 4px 23px -1px rgba(0,0,0,0.75);
+		}nav.navbar{
+			background-color: rgb(172,40,50);
+			margin-bottom: none;
+		}
+		#titre1{
+			padding-bottom: 10px;
+			font-family: verdana;
+			color: black;
+			margin:20px 0px 30px 0px;
+		}#marging{
+			margin-top: 100px;
+		}#formcontainer{
+			border-radius: 7px;
+			padding-bottom: 20px;
+			margin-bottom: 30px;
+			background-color: white;
+            -webkit-box-shadow: -1px 1px 56px -6px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px 1px 56px -6px rgba(0,0,0,0.75);
+             box-shadow: -1px 1px 56px -6px rgba(0,0,0,0.75);
+		}input[type="text"],input[type="password"],input[type="email"]{
+			outline: none;
+			outline-style: none;
+		
+		}[name="sex"]{
+			height: 20px;
+			width: 20px;
+		
+		}#buttoncontainer{
+			margin-top: 0px;
+		}input.btn{
+			background-color: unset;
+			color:black;
+			font-size: 15px;
+		border:solid 1px lightgrey;
+		}input[type="text"],input[type="password"],input[type="email"],select{
+			height: 32px;
+			border: solid 1px lightgrey;
+		}
+		input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus{
+			outline: none;
+			outline-style: none;
+			
+		}.navbar-brand{
+			font-family: "Tangerine", arial;
+			font-size: 40px;
+			color:white;
+			font-weight: bold;
+			text-shadow: 3px -2px 6px rgba(150, 150, 147, 1);
+		}.error-inputs,#errors{
+		display: none;
+			margin-top: 10px;
+			font-size: 16px;
+			color:#A31621;
+		}.act{
+				border-bottom: solid 3px white;
+				color: white;
+				padding-left: 0px;
+				padding-right: 0px;
+		
+		}select:hover{
+	      border: solid 2px lightgreen;
+	     cursor: pointer;
+        } #errordn{
+        	text-align: center;
+        }.navitem{
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+		}.navitem:hover{
+			color: black;
+		}
+
+        @media  (max-width:500px){
+        	body{
+        		background-color: white;
+        		overflow-x: hidden;
+        	}#formcontainer{
+        		border: none;
+        		box-shadow: none;
+        		background-color: inherit;
+        	}
+        }.btnindexpage{
+        	margin-bottom: 30px;
+        	padding: 7px 8px 7px 8px;
+        }

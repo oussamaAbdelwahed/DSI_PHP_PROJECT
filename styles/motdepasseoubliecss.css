@@ -1,0 +1,81 @@
+#first-element{
+	margin-top: -300px;
+}#btn-container{
+			margin-top: 20px;
+
+}.valider{
+			font-size: 16px;
+			padding: 6px 4px 6px 4px;
+			border: none;
+			border-radius: 5px;
+
+		background-color: white;
+		color: black;
+
+}#block{
+		overflow-x: hidden;
+	          color: white;
+			
+			border-radius: 7px;
+			/*background-color:  #DDE0DF;*/
+			background-color: rgba(155, 89, 182,1.0);
+			-webkit-box-shadow: 1px 6px 30px -1px rgba(43,40,43,1);
+            -moz-box-shadow: 1px 6px 30px -1px rgba(43,40,43,1);
+            box-shadow: 1px 6px 30px -1px rgba(43,40,43,1);
+}#marge{
+
+margin-top:20px;
+padding-left: 70px;
+
+
+
+}#valider,#forcode{
+	width: 100%;
+	border-radius: 0px;
+}#forcode{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}#codeconfirmation{
+	margin-top: 0px;
+	width: 100%;
+}
+form{	
+		margin: 0px;
+		padding: 20px 0px 30px 20px;
+}.emailortel{
+			padding-left: 10px;
+			font-size: 18px;
+			color: black;
+			height: 35px;
+			width: 100%;
+			margin: 20px 0px 20px 0px;
+}#emailortel:focus{
+	border: solid 1px grey;
+}#valider:hover,#forcode:hover{
+	color: black;
+	background-color:#DCDCDC;
+}
+hr{
+			color: black;
+			margin: 30px 10px 10px 20px; 
+			height: 1px;
+			background-color: lightgrey;
+}body,section{
+	background-color: white;
+	overflow-x: hidden;
+}
+#barre{
+	padding-left: 30px;
+}
+@media  (max-width:500px){
+        	#block{
+        		border: none;
+        		box-shadow: none;
+        	}#marge{padding-left: 30px;}
+        }
+
+        li a{
+        	font-size: 17px;
+        	color: white;
+        	font-weight: bolder;
+        }
